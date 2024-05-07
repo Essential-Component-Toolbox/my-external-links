@@ -1,0 +1,26 @@
+{
+  "name": "@ect/my-social-media",
+  "version": "1.0.0",
+  "description": "Simple lit HTML tag that can be used to add clickable social media logo images to web page which navigate end users to the links connected to the images",
+  "main": "my-social-media.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Essential-Component-Toolbox/my-social-media.git"
+  },
+  "keywords": [
+    "Social",
+    "Media"
+  ],
+  "author": "ECT",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/Essential-Component-Toolbox/my-social-media/issues"
+  },
+  "homepage": "https://github.com/Essential-Component-Toolbox/my-social-media#readme",
+  "dependencies": {
+    "lit": "^3.1.3"
+  }
+}
