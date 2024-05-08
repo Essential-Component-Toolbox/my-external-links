@@ -14,16 +14,16 @@ export class MySocialMedia extends LitElement {
         this.facebookLink = '';
         this.githubLink = '';
         this.instagramLink = '';
+        this.pinterestLink = '';
         this.playstationLink = '';
         this.snapchatLink = '';
+        this.tiktokLink = '';
         this.twitterLink = '';
         this.xLink = '';
         this.xboxlink = '';
-        this.pinterestLink = '';
-        this.tiktokLink = '';
 
         // Other attributes
-        this.darkIcons = false;
+        this.lightIcons = false;
         this.type = 'logos';
     }
 
@@ -36,7 +36,7 @@ export class MySocialMedia extends LitElement {
     render() {
         // TODO make it so it goes to the proper file path for light-logos or dark-logos
         let logoColor = '';
-        if (this.darkIcons === false) {
+        if (this.lightIcons) {
             logoColor = 'light-logos';
         } else {
             logoColor = 'dark-logos';
@@ -66,39 +66,57 @@ export class MySocialMedia extends LitElement {
 
     static get properties() {
         return {
+            discordLink: {
+                type: String,
+                attribute: 'discord-link',
+            },
             facebookLink: {
                 type: String,
                 attribute: 'facebook-link'
             },
-            twitterLink: {
-                type: String
-            },
-            xLink: {
-                type: String
-            },
-            discordLink: {
-                type: String,
-                attribute: 'discord-link'
-            },
             githubLink: {
-                type: String
-            },
-            playstationLink: {
-                type: String
-            },
-            xboxlink: {
-                type: String
+                type: String,
+                attribute: 'github-link',
             },
             instagramLink: {
-                type: String
+                type: String,
+                attribute: 'instagram-link',
+            },
+            pinterestLink: {
+                type: String,
+                attribute: 'pinterest-link',
+            },
+            playstationLink: {
+                type: String,
+                attribute: 'playstation-link',
             },
             snapchatLink: {
-                type: String
+                type: String,
+                attribute: 'snapchat-link',
             },
-            darkIcons: {
+            tiktokLink: {
+                type: String,
+                attribute: 'tiktok-link',
+            },
+            twitterLink: {
+                type: String,
+                attribute: 'twitter-link',
+            },
+            xLink: {
+                type: String,
+                attribute: 'x-link',
+            },
+            xboxlink: {
+                type: String,
+                attribute: 'xbox-link',
+            },
+            lightIcons: {
                 type: Boolean,
-                attribute: dark-icons,
-            }
+                attribute: 'light-icons',
+            },
+            type: {
+                type: String,
+            },
         };
     }
 }
