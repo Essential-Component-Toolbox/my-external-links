@@ -4,10 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>my-social-media sample</title>
+
+    <style>
+        div > h1 {
+            color: white;
+        }
+
+        body {
+            margin: 0;
+        }
+    </style>
 </head>
 <body>
-    <h1>Logo View</h1>
-    <my-social-media></my-social-media>
+    <section id="normal">
+        <h1>Logo View</h1>
+        <my-social-media discord-link="https://discord.com">Text within the tag will be displayed as a section header</my-social-media>
+
+        <h1>Column View</h1>
+        <my-social-media type="column" discord-link="https://discord.com">My Social Medias (not really):</my-social-media>
+    </section>
+
+    <section id="dark-background">
+        <div style="background-color: black;">
+            <h1>Logo View w/ Light Icons</h1>
+            <my-social-media discord-link="https://discord.com" light-icons>Connect with me Here!</my-social-media>
+
+            <h1>Column View w/ Light Icons</h1>
+            <my-social-media type="column" discord-link="https://discord.com" light-icons>Light Column:</my-social-media>
+        </div>
+    </section>
+
+    <section id="custom-width">
+        <h1>Logo View w/ Custom Width</h1>
+        <my-social-media></my-social-media>
+
+        <h1>Column View w/ Custom Width</h1>
+        <my-social-media type="column"></my-social-media>
+    </section>
     
     <script type="module" src="/my-social-media.js"></script>
 </body>
