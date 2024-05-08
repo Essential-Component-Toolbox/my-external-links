@@ -4,7 +4,8 @@
   "description": "Simple lit HTML tag that can be used to add clickable social media logo images to web page which navigate end users to the links connected to the images",
   "main": "my-social-media.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "web-dev-server --node-resolve --open --watch"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,8 @@
   "homepage": "https://github.com/Essential-Component-Toolbox/my-social-media#readme",
   "dependencies": {
     "lit": "^3.1.3"
+  },
+  "devDependencies": {
+    "@web/dev-server": "^0.4.4"
   }
 }

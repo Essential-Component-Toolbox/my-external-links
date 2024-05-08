@@ -8,6 +8,8 @@ export class MySocialMedia extends LitElement {
 
     constructor() {
         super();
+        
+        // Link attributes
         this.discordLink = '';
         this.facebookLink = '';
         this.githubLink = '';
@@ -17,10 +19,10 @@ export class MySocialMedia extends LitElement {
         this.twitterLink = '';
         this.xLink = '';
         this.xboxlink = '';
-        this.nintendoLink = '';
         this.pinterestLink = '';
+        this.tiktokLink = '';
 
-
+        // Other attributes
         this.darkIcons = false;
         this.type = 'logos';
     }
@@ -52,7 +54,7 @@ export class MySocialMedia extends LitElement {
                     <div class="type-column">
                         ${this.discordLink !== '' ? html`
                             <div class='discord-row'>
-                                <a href="${this.discordLink}"><img class='logo' src="/assets/${logoColor}/discord.png" alt="Link to Discord"/></a>
+                                <a href="${this.discordLink}"><img class='logo' src="/assets/${logoColor}/discord.svg" alt="Link to Discord"/></a>
                                 <a href="${this.discordLink}"><p>Discord</p></a>
                             </div>
                         ` : ''}
@@ -75,7 +77,8 @@ export class MySocialMedia extends LitElement {
                 type: String
             },
             discordLink: {
-                type: String
+                type: String,
+                attribute: 'discord-link'
             },
             githubLink: {
                 type: String
@@ -93,7 +96,8 @@ export class MySocialMedia extends LitElement {
                 type: String
             },
             darkIcons: {
-                type: Boolean
+                type: Boolean,
+                attribute: dark-icons,
             }
         };
     }
