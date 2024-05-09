@@ -6,12 +6,19 @@
     <title>my-social-media sample</title>
 
     <style>
+        /* DOES NOT AFFECT THE COMPONENTS, ONLY THE PAGE IS AFFECTED */
+        /* TODO Ensure a border can be set outside of the component */
         div > h1 {
             color: white;
         }
 
         body {
             margin: 0;
+        }
+
+        .resizeable {
+            resize: both;
+            overflow: auto;
         }
     </style>
 </head>
@@ -26,20 +33,24 @@
 
     <section id="dark-background">
         <div style="background-color: black;">
-            <h1>Logo View w/ Light Icons</h1>
+            <h1>Logo View</h1>
             <my-social-media chess-link="https://chess.com" discord-link="https://discord.com" facebook-link="https://facebook.com" light-icons>Connect with me Here!</my-social-media>
 
-            <h1>Column View w/ Light Icons</h1>
+            <h1>Column View</h1>
             <my-social-media type="column" discord-link="https://discord.com" light-icons>Light Column:</my-social-media>
         </div>
     </section>
 
     <section id="custom-width">
         <h1>Logo View w/ Custom Width</h1>
-        <my-social-media></my-social-media>
+        <div class="resizeable">
+        <my-social-media amazon-link="https://amazon.com"></my-social-media>
+        </div>
 
         <h1>Column View w/ Custom Width</h1>
-        <my-social-media type="column"></my-social-media>
+        <div class="resizeable">
+            <my-social-media amazon-link="https://amazon.com" type="column"></my-social-media>
+        </div>
     </section>
     
     <script type="module" src="/my-social-media.js"></script>
