@@ -1,9 +1,9 @@
 import { LitElement, css, html } from 'lit';
 
-export class MySocialMedia extends LitElement {
+export class MyExternalLinks extends LitElement {
     
     static get tag() {
-        return 'my-social-media';
+        return 'my-external-links';
     }
 
     /* 
@@ -473,4 +473,4 @@ export class MySocialMedia extends LitElement {
     }
 }
 
-globalThis.customElements.define(MySocialMedia.tag, MySocialMedia);
+globalThis.customElements.define(MyExternalLinks.tag, MyExternalLinks);
