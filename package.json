@@ -1,5 +1,5 @@
 {
-  "name": "@ect/my-social-media",
+  "name": "@ect/my-external-links",
   "version": "1.0.0",
   "description": "Simple lit HTML tag that can be used to add clickable social media logo images to web page which navigate end users to the links connected to the images",
   "main": "my-social-media.js",
