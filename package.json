@@ -2,7 +2,7 @@
     "name": "my-external-links",
     "description": "Webcomponent my-external-links following hax / open-wc recommendations",
     "license": "Apache-2.0",
-    "author": "Zach Dodson",
+    "author": "ect",
     "version": "0.0.0",
     "type": "module",
     "scripts": {
