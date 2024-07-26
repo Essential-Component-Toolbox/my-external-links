@@ -1,178 +1,128 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>my-external-links sample</title>
+  <base href="/">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="Description" content="Demonstration for my-external-links">
 
-    <style>
-        /* DOES NOT AFFECT THE COMPONENTS, ONLY THE PAGE IS AFFECTED */
-        /* TODO Ensure a border can be set outside of the component */
-        div > h1 {
-            color: white;
-        }
-
-        body {
-            margin: 0;
-        }
-
-        .resizeable {
-            resize: both;
-            overflow: auto;
-            border-style: solid;
-        }
-    </style>
+  <style>
+    :root, html, body {
+      margin: 0;
+      padding: 0;
+      background-color: var(--ddd-accent-1);
+    }
+    #demo {
+      margin: var(--ddd-spacing-2);
+    }
+    my-external-links {
+      margin: var(--ddd-spacing-2);
+      border: var(--ddd-border-md);
+      border-radius: var(--ddd-radius-lg);
+    }
+    my-external-links:hover {
+      box-shadow: var(--ddd-boxShadow-sm);
+    }
+    #example {
+      --my-external-links-font-size: var(--ddd-font-size-l);
+      background-color: var(--ddd-accent-2);
+      color: var(--ddd-primary-17);
+    }
+  </style>
+  <title>my-external-links</title>
 </head>
+
 <body>
-    <section id="normal">
-        <h1>Logo View</h1>
-        <my-external-links
-            amazon-link="https://amazon.com" 
-            cashapp-link="https://cashapp.com" 
-            chess-link="https://chess.com" 
-            discord-link="https://discord.com" 
-            dropbox-link="https://dropbox.com" 
-            facebook-link="https://facebook.com" 
-            ebay-link="https://ebay.com" 
-            email-address="bXpRt@example.com" 
-            etsy-link="https://etsy.com" 
-            github-link="https://github.com/Essential-Component-Toolbox/my-social-media/tree/main" 
-            google-classroom-link="https://sites.google.com/view/classroom-workspace/"
-            google-drive-link="https://drive.google.com"
-            groupme-link="https://groupme.com"
-            instagram-link="https://instagram.com"
-            kofi-link="https://kofi.com"
-            linkedin-link="https://linkedin.com"
-            onlyfans-link="https://onlyfans.com"
-            paypal-link="https://paypal.com"
-            patreon-link="https://patreon.com"
-            pinterest-link="https://pinterest.com"
-            playstation-link="https://playstation.com"
-            phoneNumber="555-555-5555"
-            reddit-link="https://reddit.com"
-            shopify-link="https://shopify.com"
-            slack-link="https://slack.com"
-            snapchat-link="https://snapchat.com"
-            spotify-link="https://spotify.com"
-            steam-link="https://steam.com"
-            teams-link="https://teams.microsoft.com"
-            telegram-link="https://telegram.com"
-            threads-link="https://threads.com"
-            tiktok-link="https://tiktok.com"
-            twitch-link="https://twitch.com"
-            twitter-link="https://twitter.com"
-            venmo-link="https://venmo.com"
-            vsco-link="https://vsco.co"
-            wechat-link="https://wechat.com"
-            whatsapp-link="https://whatsapp.com"
-            x-link="https://x.com"
-            xbox-link="https://xbox.com"
-            youtube-link="https://youtube.com"
-            zoom-link="https://zoom.com"
-            > Text within the tag will be displayed as a section header </my-external-links>
-    </section>
+  <div id="demo">
+    <h1>my-external-links</h1>
+    <!-- this is going to do whatever the tag's defaults are -->
+    <h2>Default</h2>
+    <my-external-links></my-external-links>
+    <h2>Slot usage</h2>
+    <my-external-links data-accent="2" data-primary="17"><div>Sample slot content</div></my-external-links>
+    <h2>Property usage</h2>
+    <my-external-links id="example" title="Sample property title"></my-external-links>
+  </div>
+  <script type="module" src="./src/my-external-links.js"></script>
 
-    <section id="dark-background">
-        <div style="background-color: black;">
-            <h1>Logo View</h1>
-            <my-external-links 
-            amazon-link="https://amazon.com" 
-            cashapp-link="https://cashapp.com" 
-            chess-link="https://chess.com" 
-            discord-link="https://discord.com" 
-            dropbox-link="https://dropbox.com" 
-            facebook-link="https://facebook.com" 
-            ebay-link="https://ebay.com" 
-            email-address="bXpRt@example.com" 
-            etsy-link="https://etsy.com" 
-            github-link="https://github.com/Essential-Component-Toolbox/my-social-media/tree/main" 
-            google-classroom-link="https://sites.google.com/view/classroom-workspace/"
-            google-drive-link="https://drive.google.com"
-            groupme-link="https://groupme.com"
-            instagram-link="https://instagram.com"
-            kofi-link="https://kofi.com"
-            linkedin-link="https://linkedin.com"
-            onlyfans-link="https://onlyfans.com"
-            paypal-link="https://paypal.com"
-            patreon-link="https://patreon.com"
-            pinterest-link="https://pinterest.com"
-            playstation-link="https://playstation.com"
-            phoneNumber="555-555-5555"
-            reddit-link="https://reddit.com"
-            shopify-link="https://shopify.com"
-            slack-link="https://slack.com"
-            snapchat-link="https://snapchat.com"
-            spotify-link="https://spotify.com"
-            steam-link="https://steam.com"
-            teams-link="https://teams.microsoft.com"
-            telegram-link="https://telegram.com"
-            threads-link="https://threads.com"
-            tiktok-link="https://tiktok.com"
-            twitch-link="https://twitch.com"
-            twitter-link="https://twitter.com"
-            venmo-link="https://venmo.com"
-            vsco-link="https://vsco.co"
-            wechat-link="https://wechat.com"
-            whatsapp-link="https://whatsapp.com"
-            x-link="https://x.com"
-            xbox-link="https://xbox.com"
-            youtube-link="https://youtube.com"
-            zoom-link="https://zoom.com"
-            contrast-dark
-            > Text within the tag will be displayed as a section header </my-external-links>
-        </div>
-    </section>
-
-    <section id="custom-width">
-        <h1>Logo View w/ Custom Width</h1>
-        <div class="resizeable">
-            <my-external-links 
-            amazon-link="https://amazon.com" 
-            cashapp-link="https://cashapp.com" 
-            chess-link="https://chess.com" 
-            discord-link="https://discord.com" 
-            dropbox-link="https://dropbox.com" 
-            facebook-link="https://facebook.com" 
-            ebay-link="https://ebay.com" 
-            email-address="bXpRt@example.com" 
-            etsy-link="https://etsy.com" 
-            github-link="https://github.com/Essential-Component-Toolbox/my-social-media/tree/main" 
-            google-classroom-link="https://sites.google.com/view/classroom-workspace/"
-            google-drive-link="https://drive.google.com"
-            groupme-link="https://groupme.com"
-            instagram-link="https://instagram.com"
-            kofi-link="https://kofi.com"
-            linkedin-link="https://linkedin.com"
-            onlyfans-link="https://onlyfans.com"
-            paypal-link="https://paypal.com"
-            patreon-link="https://patreon.com"
-            pinterest-link="https://pinterest.com"
-            playstation-link="https://playstation.com"
-            phoneNumber="555-555-5555"
-            reddit-link="https://reddit.com"
-            shopify-link="https://shopify.com"
-            slack-link="https://slack.com"
-            snapchat-link="https://snapchat.com"
-            spotify-link="https://spotify.com"
-            steam-link="https://steam.com"
-            teams-link="https://teams.microsoft.com"
-            telegram-link="https://telegram.com"
-            threads-link="https://threads.com"
-            tiktok-link="https://tiktok.com"
-            twitch-link="https://twitch.com"
-            twitter-link="https://twitter.com"
-            venmo-link="https://venmo.com"
-            vsco-link="https://vsco.co"
-            wechat-link="https://wechat.com"
-            whatsapp-link="https://whatsapp.com"
-            x-link="https://x.com"
-            xbox-link="https://xbox.com"
-            youtube-link="https://youtube.com"
-            zoom-link="https://zoom.com"
-            > Text within the tag will be displayed as a section header </my-external-links>
-        </div>
-    </section>
-    
-    <script type="module" src="/my-external-links.js"></script>
+  <!-- Take HAX, the Web and you further down the rabbit hole -->
+  <style>
+    #follow-the-white-rabbit {
+      margin: var(--ddd-spacing-4) auto 64px  16px;
+      background-color: var(--ddd-accent-4);
+    }
+    #follow-the-white-rabbit[open] summary {
+      background-color: var(--ddd-accent-4) !important;
+    }
+    #follow-the-white-rabbit[open] .content {
+      padding: 0 var(--ddd-spacing-4);
+    }
+    #follow-the-white-rabbit ul,
+    #follow-the-white-rabbit li {
+      padding: 0;
+      margin: 0;
+    }
+    #follow-the-white-rabbit li {
+      font-size: var(--ddd-font-size-xs);
+      list-style: none;
+    }
+    #follow-the-white-rabbit li strong,
+    #follow-the-white-rabbit li a {
+      padding: var(--ddd-spacing-2) var(--ddd-spacing-4);
+      color: black;
+      display: block;
+      font-weight: bold;
+    }
+    #follow-the-white-rabbit li:focus-within a,
+    #follow-the-white-rabbit li:hover a {
+      background-color: black;
+      color: yellow;
+    }
+  </style>
+  <details id="follow-the-white-rabbit" open>
+    <summary>How to Develop</summary>
+    <div class="content">
+      <p>
+      
+      </p>
+      <p>
+        You can edit the current page by modifying <code>index.html</code><br />
+        To edit your <strong>my-external-links</strong> tag, modify <code>src/my-external-links.js</code>.
+        This file contains all the HTML, CSS and JavaScript used to render your elements above!
+      </p>
+      <p>
+        Web components are easy to follow once you get used to their pattern.
+        Below are links to help on your journey. Good luck, we need you!
+      </p>
+      <ul>
+        <li><a href="https://oer.hax.psu.edu/bto108/sites/haxcellence/documentation/ddd" target="_blank">🧑‍🎨 Learn DDD HAX Design system</a></li>
+        <li><a href="https://lit.dev/playground/" target="_blank" rel="nofollow">🔥 Learn Lit</a></li>
+        <li><a href="https://hax.psu.edu" target="_blank">🧙 HAX The Web @ Penn State</a></li>
+      </ul>
+      <h2>Join and Share HAX</h2>
+      <ul>
+        <li><a href="https://github.com/haxtheweb/issues/issues" target="_blank" rel="nofollow">🔮 Ideas to HAX Harder, Better, Faster, Stronger</a></li>
+        <li><a href="https://bit.ly/hax-the-linkedin" target="_blank" rel="nofollow">👔 Share on LinkedIn</a></li>
+        <li><a href="https://bit.ly/hax-the-x" target="_blank" rel="nofollow">🧵 Tweet on X</a></li>
+        <li><a href="https://bit.ly/hax-discord" target="_blank" rel="nofollow">💬 Join Community</a></li>
+      </ul>
+      <h2>Learn the languages and tools</h2>
+      <ul>
+        <li><a href="https://w3schools.com" target="_blank" rel="nofollow">🌐 Learn HTML</a></li>
+        <li><a href="https://web.dev/learn/css/" target="_blank" rel="nofollow">🎨 Learn CSS</a></li>
+        <li><a href="http://Javascript.info" target="_blank" rel="nofollow">💻 Learn JavaScript (JS)</a></li>
+        <li><a href="https://gitimmersion.com" target="_blank" rel="nofollow">🦺 Learn Git / Github</a></li>
+        <li><a href="https://nodesource.com/blog/an-absolute-beginners-guide-to-using-npm/" target="_blank" rel="nofollow">📦 Learn NPM</a></li>
+        <li><a href="http://learnux.io" target="_blank" rel="nofollow">📐 Learn UX / UI development</a></li>
+      </ul>
+      <h2>Find purpose and inspiration</h2>
+      <ul>
+        <li><a href="https://www.youtube.com/watch?v=eC7xzavzEKY" target="_blank" rel="nofollow">🐟 This is Water - David Foster Wallace</a></li>
+        <li><a href="https://www.youtube.com/watch?v=kYfNvmF0Bqw" target="_blank" rel="nofollow">🏗️ Secrets of Life - Steve Jobs</a></li>
+        <li><strong>💡 <em>Never. Stop. Innovating.</em></strong></li>
+      </ul>
+    </div>
+  </details>
 </body>
 </html>
