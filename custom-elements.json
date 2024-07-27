@@ -1,0 +1,655 @@
+{
+  "schemaVersion": "1.0.0",
+  "readme": "",
+  "modules": [
+    {
+      "kind": "javascript-module",
+      "path": "src/my-external-links.js",
+      "declarations": [
+        {
+          "kind": "class",
+          "description": "",
+          "name": "MyExternalLinks",
+          "members": [
+            {
+              "kind": "field",
+              "name": "tag",
+              "static": true
+            },
+            {
+              "kind": "field",
+              "name": "haxProperties",
+              "static": true,
+              "description": "haxProperties integration via file reference"
+            },
+            {
+              "kind": "field",
+              "name": "amazonLink",
+              "type": {
+                "text": "string"
+              },
+              "default": "''",
+              "privacy": "public",
+              "attribute": "amazon-link"
+            },
+            {
+              "kind": "field",
+              "name": "cashAppLink",
+              "type": {
+                "text": "string"
+              },
+              "default": "''",
+              "privacy": "public",
+              "attribute": "cashapp-link"
+            },
+            {
+              "kind": "field",
+              "name": "chessLink",
+              "type": {
+                "text": "string"
+              },
+              "default": "''",
+              "privacy": "public",
+              "attribute": "chess-link"
+            },
+            {
+              "kind": "field",
+              "name": "discordLink",
+              "type": {
+                "text": "string"
+              },
+              "default": "''",
+              "privacy": "public",
+              "attribute": "discord-link"
+            },
+            {
+              "kind": "field",
+              "name": "dropboxLink",
+              "type": {
+                "text": "string"
+              },
+              "default": "''",
+              "privacy": "public",
+              "attribute": "dropbox-link"
+            },
+            {
+              "kind": "field",
+              "name": "ebayLink",
+              "type": {
+                "text": "string"
+              },
+              "default": "''",
+              "privacy": "public",
+              "attribute": "ebay-link"
+            },
+            {
+              "kind": "field",
+              "name": "emailAddress",
+              "type": {
+                "text": "string"
+              },
+              "default": "''",
+              "privacy": "public",
+              "attribute": "email-address"
+            },
+            {
+              "kind": "field",
+              "name": "etsyLink",
+              "type": {
+                "text": "string"
+              },
+              "default": "''",
+              "privacy": "public",
+              "attribute": "etsy-link"
+            },
+            {
+              "kind": "field",
+              "name": "facebookLink",
+              "type": {
+                "text": "string"
+              },
+              "default": "''",
+              "privacy": "public",
+              "attribute": "facebook-link"
+            },
+            {
+              "kind": "field",
+              "name": "githubLink",
+              "type": {
+                "text": "string"
+              },
+              "default": "''",
+              "privacy": "public",
+              "attribute": "github-link"
+            },
+            {
+              "kind": "field",
+              "name": "googleClassroomLink",
+              "type": {
+                "text": "string"
+              },
+              "default": "''",
+              "privacy": "public",
+              "attribute": "google-classroom-link"
+            },
+            {
+              "kind": "field",
+              "name": "googleDriveLink",
+              "type": {
+                "text": "string"
+              },
+              "default": "''",
+              "privacy": "public",
+              "attribute": "google-drive-link"
+            },
+            {
+              "kind": "field",
+              "name": "groupMeLink",
+              "type": {
+                "text": "string"
+              },
+              "default": "''",
+              "privacy": "public",
+              "attribute": "groupme-link"
+            },
+            {
+              "kind": "field",
+              "name": "instagramLink",
+              "type": {
+                "text": "string"
+              },
+              "default": "''",
+              "privacy": "public",
+              "attribute": "instagram-link"
+            },
+            {
+              "kind": "field",
+              "name": "kofiLink",
+              "type": {
+                "text": "string"
+              },
+              "default": "''",
+              "privacy": "public",
+              "attribute": "kofi-link"
+            },
+            {
+              "kind": "field",
+              "name": "linkedInLink",
+              "type": {
+                "text": "string"
+              },
+              "default": "''",
+              "privacy": "public",
+              "attribute": "linkedin-link"
+            },
+            {
+              "kind": "field",
+              "name": "onlyFansLink",
+              "type": {
+                "text": "string"
+              },
+              "default": "''",
+              "privacy": "public",
+              "attribute": "onlyfans-link"
+            },
+            {
+              "kind": "field",
+              "name": "payPalLink",
+              "type": {
+                "text": "string"
+              },
+              "default": "''",
+              "privacy": "public",
+              "attribute": "paypal-link"
+            },
+            {
+              "kind": "field",
+              "name": "patreonLink",
+              "type": {
+                "text": "string"
+              },
+              "default": "''",
+              "privacy": "public",
+              "attribute": "patreon-link"
+            },
+            {
+              "kind": "field",
+              "name": "pinterestLink",
+              "type": {
+                "text": "string"
+              },
+              "default": "''",
+              "privacy": "public",
+              "attribute": "pinterest-link"
+            },
+            {
+              "kind": "field",
+              "name": "playstationLink",
+              "type": {
+                "text": "string"
+              },
+              "default": "''",
+              "privacy": "public",
+              "attribute": "playstation-link"
+            },
+            {
+              "kind": "field",
+              "name": "phoneNumber",
+              "type": {
+                "text": "null"
+              },
+              "default": "null",
+              "privacy": "public",
+              "attribute": "phone-number"
+            },
+            {
+              "kind": "field",
+              "name": "redditLink",
+              "type": {
+                "text": "string"
+              },
+              "default": "''",
+              "privacy": "public",
+              "attribute": "reddit-link"
+            },
+            {
+              "kind": "field",
+              "name": "shopifyLink",
+              "type": {
+                "text": "string"
+              },
+              "default": "''",
+              "privacy": "public",
+              "attribute": "shopify-link"
+            },
+            {
+              "kind": "field",
+              "name": "slackLink",
+              "type": {
+                "text": "string"
+              },
+              "default": "''",
+              "privacy": "public",
+              "attribute": "slack-link"
+            },
+            {
+              "kind": "field",
+              "name": "snapchatLink",
+              "type": {
+                "text": "string"
+              },
+              "default": "''",
+              "privacy": "public",
+              "attribute": "snapchat-link"
+            },
+            {
+              "kind": "field",
+              "name": "spotifyLink",
+              "type": {
+                "text": "string"
+              },
+              "default": "''",
+              "privacy": "public",
+              "attribute": "spotify-link"
+            },
+            {
+              "kind": "field",
+              "name": "steamLink",
+              "type": {
+                "text": "string"
+              },
+              "default": "''",
+              "privacy": "public",
+              "attribute": "steam-link"
+            },
+            {
+              "kind": "field",
+              "name": "teamsLink",
+              "type": {
+                "text": "string"
+              },
+              "default": "''",
+              "privacy": "public",
+              "attribute": "teams-link"
+            },
+            {
+              "kind": "field",
+              "name": "telegramLink",
+              "type": {
+                "text": "string"
+              },
+              "default": "''",
+              "privacy": "public",
+              "attribute": "telegram-link"
+            },
+            {
+              "kind": "field",
+              "name": "threadsLink",
+              "type": {
+                "text": "string"
+              },
+              "default": "''",
+              "privacy": "public",
+              "attribute": "threads-link"
+            },
+            {
+              "kind": "field",
+              "name": "tiktokLink",
+              "type": {
+                "text": "string"
+              },
+              "default": "''",
+              "privacy": "public",
+              "attribute": "tiktok-link"
+            },
+            {
+              "kind": "field",
+              "name": "twitchLink",
+              "type": {
+                "text": "string"
+              },
+              "default": "''",
+              "privacy": "public",
+              "attribute": "twitch-link"
+            },
+            {
+              "kind": "field",
+              "name": "twitterLink",
+              "type": {
+                "text": "string"
+              },
+              "default": "''",
+              "privacy": "public",
+              "attribute": "twitter-link"
+            },
+            {
+              "kind": "field",
+              "name": "venmoLink",
+              "type": {
+                "text": "string"
+              },
+              "default": "''",
+              "privacy": "public",
+              "attribute": "venmo-link"
+            },
+            {
+              "kind": "field",
+              "name": "vscoLink",
+              "type": {
+                "text": "string"
+              },
+              "default": "''",
+              "privacy": "public",
+              "attribute": "vsco-link"
+            },
+            {
+              "kind": "field",
+              "name": "wechatLink",
+              "type": {
+                "text": "string"
+              },
+              "default": "''",
+              "privacy": "public",
+              "attribute": "wechat-link"
+            },
+            {
+              "kind": "field",
+              "name": "whatsappLink",
+              "type": {
+                "text": "string"
+              },
+              "default": "''",
+              "privacy": "public",
+              "attribute": "whatsapp-link"
+            },
+            {
+              "kind": "field",
+              "name": "xLink",
+              "type": {
+                "text": "string"
+              },
+              "default": "''",
+              "privacy": "public",
+              "attribute": "x-link"
+            },
+            {
+              "kind": "field",
+              "name": "xboxLink",
+              "type": {
+                "text": "string"
+              },
+              "default": "''",
+              "privacy": "public",
+              "attribute": "xbox-link"
+            },
+            {
+              "kind": "field",
+              "name": "youtubeLink",
+              "type": {
+                "text": "string"
+              },
+              "default": "''",
+              "privacy": "public",
+              "attribute": "youtube-link"
+            },
+            {
+              "kind": "field",
+              "name": "zoomLink",
+              "type": {
+                "text": "string"
+              },
+              "default": "''",
+              "privacy": "public",
+              "attribute": "zoom-link"
+            },
+            {
+              "kind": "field",
+              "name": "contrastDark",
+              "type": {
+                "text": "boolean"
+              },
+              "default": "false",
+              "privacy": "public",
+              "attribute": "contrast-dark"
+            }
+          ],
+          "attributes": [
+            {
+              "name": "amazon-link",
+              "fieldName": "amazonLink"
+            },
+            {
+              "name": "cashapp-link",
+              "fieldName": "cashAppLink"
+            },
+            {
+              "name": "chess-link",
+              "fieldName": "chessLink"
+            },
+            {
+              "name": "discord-link",
+              "fieldName": "discordLink"
+            },
+            {
+              "name": "dropbox-link",
+              "fieldName": "dropboxLink"
+            },
+            {
+              "name": "ebay-link",
+              "fieldName": "ebayLink"
+            },
+            {
+              "name": "email-address",
+              "fieldName": "emailAddress"
+            },
+            {
+              "name": "etsy-link",
+              "fieldName": "etsyLink"
+            },
+            {
+              "name": "facebook-link",
+              "fieldName": "facebookLink"
+            },
+            {
+              "name": "github-link",
+              "fieldName": "githubLink"
+            },
+            {
+              "name": "google-classroom-link",
+              "fieldName": "googleClassroomLink"
+            },
+            {
+              "name": "google-drive-link",
+              "fieldName": "googleDriveLink"
+            },
+            {
+              "name": "groupme-link",
+              "fieldName": "groupMeLink"
+            },
+            {
+              "name": "instagram-link",
+              "fieldName": "instagramLink"
+            },
+            {
+              "name": "kofi-link",
+              "fieldName": "kofiLink"
+            },
+            {
+              "name": "linkedin-link",
+              "fieldName": "linkedInLink"
+            },
+            {
+              "name": "onlyfans-link",
+              "fieldName": "onlyFansLink"
+            },
+            {
+              "name": "paypal-link",
+              "fieldName": "payPalLink"
+            },
+            {
+              "name": "patreon-link",
+              "fieldName": "patreonLink"
+            },
+            {
+              "name": "pinterest-link",
+              "fieldName": "pinterestLink"
+            },
+            {
+              "name": "playstation-link",
+              "fieldName": "playstationLink"
+            },
+            {
+              "name": "phone-number",
+              "fieldName": "phoneNumber"
+            },
+            {
+              "name": "reddit-link",
+              "fieldName": "redditLink"
+            },
+            {
+              "name": "shopify-link",
+              "fieldName": "shopifyLink"
+            },
+            {
+              "name": "slack-link",
+              "fieldName": "slackLink"
+            },
+            {
+              "name": "snapchat-link",
+              "fieldName": "snapchatLink"
+            },
+            {
+              "name": "spotify-link",
+              "fieldName": "spotifyLink"
+            },
+            {
+              "name": "steam-link",
+              "fieldName": "steamLink"
+            },
+            {
+              "name": "teams-link",
+              "fieldName": "teamsLink"
+            },
+            {
+              "name": "telegram-link",
+              "fieldName": "telegramLink"
+            },
+            {
+              "name": "threads-link",
+              "fieldName": "threadsLink"
+            },
+            {
+              "name": "tiktok-link",
+              "fieldName": "tiktokLink"
+            },
+            {
+              "name": "twitch-link",
+              "fieldName": "twitchLink"
+            },
+            {
+              "name": "twitter-link",
+              "fieldName": "twitterLink"
+            },
+            {
+              "name": "venmo-link",
+              "fieldName": "venmoLink"
+            },
+            {
+              "name": "vsco-link",
+              "fieldName": "vscoLink"
+            },
+            {
+              "name": "wechat-link",
+              "fieldName": "wechatLink"
+            },
+            {
+              "name": "whatsapp-link",
+              "fieldName": "whatsappLink"
+            },
+            {
+              "name": "x-link",
+              "fieldName": "xLink"
+            },
+            {
+              "name": "xbox-link",
+              "fieldName": "xboxLink"
+            },
+            {
+              "name": "youtube-link",
+              "fieldName": "youtubeLink"
+            },
+            {
+              "name": "zoom-link",
+              "fieldName": "zoomLink"
+            },
+            {
+              "name": "contrast-dark",
+              "fieldName": "contrastDark"
+            }
+          ],
+          "mixins": [
+            {
+              "name": "DDDSuper",
+              "package": "@haxtheweb/d-d-d/d-d-d.js"
+            }
+          ],
+          "superclass": {
+            "name": "LitElement",
+            "package": "lit"
+          },
+          "customElement": true
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "MyExternalLinks",
+          "declaration": {
+            "name": "MyExternalLinks",
+            "module": "src/my-external-links.js"
+          }
+        }
+      ]
+    }
+  ]
+}

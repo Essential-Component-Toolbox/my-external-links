@@ -1,9 +1,9 @@
 {
-  "name": "my-external-links",
+  "name": "@ect/my-external-links",
   "description": "Webcomponent my-external-links following hax / open-wc recommendations",
   "license": "Apache-2.0",
   "author": "ect",
-  "version": "0.0.5",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "start": "web-dev-server",
