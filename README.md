@@ -6,6 +6,7 @@
 
 ### Links
 * [GitHub Repo](https://github.com/Essential-Component-Toolbox/my-external-links)
+* [NPM](https://www.npmjs.com/package/@essential-component-toolbox/my-external-links?activeTab=readme)
 
 ---
 
