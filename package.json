@@ -1,5 +1,5 @@
 {
-  "name": "my-external-links",
+  "name": "@ect/my-external-links",
   "description": "Webcomponent my-external-links following hax / open-wc recommendations",
   "license": "Apache-2.0",
   "author": "ect",

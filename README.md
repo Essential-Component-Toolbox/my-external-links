@@ -6,7 +6,6 @@
 
 ### Links
 * [GitHub Repo](https://github.com/Essential-Component-Toolbox/my-external-links)
-* [NPM]()
 
 ---
 
