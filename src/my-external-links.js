@@ -264,6 +264,10 @@ export class MyExternalLinks extends DDDSuper(LitElement) {
           color: black;
       }
 
+      a:hover, a:focus-visible {
+        opacity: 0.8;
+      }
+
       .text-anchor:hover, .text-anchor:focus {
           text-decoration: underline;
       }
