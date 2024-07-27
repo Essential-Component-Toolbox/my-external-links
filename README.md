@@ -1,4 +1,17 @@
 # my-external-links
+
+## Description
+
+**Web component for displaying social media icons which navigate a user to the link attached to them.**
+
+### Links
+* [GitHub Repo](https://github.com/Essential-Component-Toolbox/my-external-links)
+* [NPM]()
+
+---
+
+## HAX Component Instructions
+
 DDD + Lit web component based on OpenWC toolchain. This is intended to provide the following:
 - Look good via DDD, HAX design system
 - Simple, easy to read code via Lit
@@ -32,17 +45,20 @@ DDD + Lit web component based on OpenWC toolchain. This is intended to provide t
 
 ### Plugins
 
-Name: lit-html
-Description: Syntax highlighting and IntelliSense for html inside of JavaScript and TypeScript tagged template strings
-Publisher: Matt Bierner
-VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=bierner.lit-html
+Name: lit-html  
+Description: Syntax highlighting and IntelliSense for html inside of JavaScript and TypeScript tagged template strings  
+Publisher: Matt Bierner  
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=bierner.lit-html  
 
-Name: lit-plugin
-Description: Syntax highlighting, type checking and code completion for lit-html
-Publisher: Rune Mehlsen
+Name: lit-plugin  
+Description: Syntax highlighting, type checking and code completion for lit-html  
+Publisher: Rune Mehlsen  
 VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=runem.lit-plugin
 
+---
 # Credits
+Component created by Zach Dodson under the name [Essential Component Toolbox](https://github.com/Essential-Component-Toolbox).
+
 A brighter future dreamed and developed by the Penn State [HAXTheWeb](https://hax.psu.edu/) initative.
 
-Never. Stop. innovating.
+Never. Stop. Innovating.
