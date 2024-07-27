@@ -3,7 +3,7 @@
   "description": "Webcomponent my-external-links following hax / open-wc recommendations",
   "license": "Apache-2.0",
   "author": "ect",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "start": "web-dev-server",
@@ -43,5 +43,16 @@
     "access": "public"
   },
   "main": "src/my-external-links.js",
-  "private": false
+  "private": false,
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Essential-Component-Toolbox/my-external-links.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Essential-Component-Toolbox/my-external-links/issues"
+  },
+  "homepage": "https://github.com/Essential-Component-Toolbox/my-external-links#readme"
 }
