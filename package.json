@@ -38,5 +38,10 @@
     "rimraf": "^5.0.7",
     "commit-and-tag-version": "^12.4.1"
   },
-  "customElements": "custom-elements.json"
+  "customElements": "custom-elements.json",
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "src/my-external-links.js",
+  "private": false
 }
