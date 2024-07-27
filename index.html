@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+  <base href="/">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
   <meta name="Description" content="Demonstration for my-external-links">
@@ -11,7 +12,7 @@
 <body>
   <script type="module" src="./src/my-external-links.js"></script>
 
-  <div style="background-color: white;">
+  <div style="background-color: white; color: black;">
     <my-external-links 
       amazon-link="https://amazon.com"
       cashapp-link="https://cash.app/"
@@ -55,10 +56,11 @@
       youtube-link="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
       zoom-link="https://zoom.us/"
       >
+      This is light mode
     </my-external-links>
   </div>
 
-  <div style="background-color: black;">
+  <div style="background-color: black; color: white;">
     <my-external-links 
     amazon-link="https://amazon.com"
     cashapp-link="https://cash.app/"
@@ -102,8 +104,9 @@
     youtube-link="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
     zoom-link="https://zoom.us/"
 
-      contrast-dark
-      >
+    contrast-dark
+    >
+      This is dark mode
     </my-external-links>
   </div>
 

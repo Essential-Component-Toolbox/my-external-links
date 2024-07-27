@@ -244,11 +244,11 @@ export class MyExternalLinks extends DDDSuper(LitElement) {
       :host() {
         display: block;
       }
-      
-      .my-social-media-container {
-          padding: 4px;
+    
+      .my-social-media-container {  
+        padding: 0 4px 4px 4px;
       }
-
+      
       h3 {
           font-weight: normal;
           text-decoration: underline;
