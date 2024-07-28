@@ -3,7 +3,7 @@
   "description": "Webcomponent my-external-links following hax / open-wc recommendations",
   "license": "Apache-2.0",
   "author": "ect",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "type": "module",
   "scripts": {
     "start": "web-dev-server",
